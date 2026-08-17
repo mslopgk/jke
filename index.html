@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>JKE ㈜제이케이이 — 선박·해양·산업 전기 시스템</title>
+<meta name="description" content="2002년 설립. 선박 주배전반, 전동기제어반, 방폭 접속함, 항해등 제어반을 설계·제작하는 부산 기반 전기 시스템 제조사. IECEx/ATEX·UL 508A·ISO 9001/14001/45001." />
+<meta name="theme-color" content="#07090C" />
+<meta property="og:title" content="JKE ㈜제이케이이 — 선박·해양·산업 전기 시스템" />
+<meta property="og:description" content="2002년부터 선박과 해양플랜트의 전기 계통을 만들어 온 배전반 전문 제조사." />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="ko_KR" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<!-- Only what the page actually renders. Every extra Korean weight costs ~165 kB
+     (the face is split into ~25 Hangul subsets per weight) plus ~60 kB of CSS,
+     so the body face is loaded at a single weight and emphasis is done with
+     brightness. Archivo's variable axes are narrowed to the range in use. -->
+<link
+  href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@96..125,700..900&family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans+KR:wght@300&display=swap"
+  rel="stylesheet" />
+<link rel="preload" as="image" href="/assets/ai/hero-poster.webp" fetchpriority="high" />
+</head>
+
+<body>
+
+<!-- ═══ 00 PRELOADER ═══════════════════════════════════════════════ -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="preloader__mark">
+    <svg viewBox="0 0 260 72" role="img" aria-label="JKE">
+      <text class="pl-word" x="0" y="58">JKE</text>
+    </svg>
+  </div>
+  <div class="preloader__meter">
+    <span class="preloader__label">LOADING</span>
+    <span class="preloader__count" id="plCount">00</span>
+  </div>
+  <div class="preloader__rail"><i id="plRail"></i></div>
+</div>
+
+<!-- ═══ NAV ════════════════════════════════════════════════════════ -->
+<header class="nav" id="nav">
+  <a class="nav__logo" href="#top" aria-label="JKE 홈">
+    <span>JKE</span>
+    <em>㈜제이케이이</em>
+  </a>
+  <nav class="nav__links" id="navLinks" aria-label="주요 메뉴"></nav>
+  <a class="nav__cta" href="#contact">
+    CONTACT<i></i>
+  </a>
+  <button class="nav__burger" id="navBurger" aria-label="메뉴 열기" aria-expanded="false">
+    <i></i><i></i>
+  </button>
+</header>
+
+<!-- scene index rail -->
+<aside class="rail" id="rail" aria-hidden="true"></aside>
+
+<main id="top">
+
+  <!-- ═══ 01 HERO ══════════════════════════════════════════════════ -->
+  <section class="hero" id="hero" data-scene="hero">
+    <div class="hero__media">
+      <img class="hero__poster" id="heroPoster" src="/assets/ai/hero-poster.webp"
+           alt="야간 조선소 드라이독 전경" fetchpriority="high" decoding="async" />
+      <video class="hero__video" id="heroVideo" muted loop playsinline preload="none"
+             poster="/assets/ai/hero-poster.webp" aria-hidden="true"></video>
+      <span class="hero__scrim"></span>
+    </div>
+
+    <div class="hero__body">
+      <p class="eyebrow" data-hero-fade>
+        <span class="dot"></span>BUSAN, KOREA · SINCE 2002
+      </p>
+      <h1 class="hero__title">
+        <span class="line"><span data-split>ELECTRICAL</span></span>
+        <span class="line"><span data-split>SAFETY</span></span>
+      </h1>
+      <span class="hero__underline" data-hero-underline></span>
+      <p class="hero__lede" data-hero-fade>
+        선박과 해양플랜트, 그리고 산업 현장의 전기 계통을<br />
+        <strong>설계부터 시험까지</strong> 한 공장에서 완성합니다.
+      </p>
+      <div class="hero__meta" data-hero-fade>
+        <span>MARINE</span><span>OFFSHORE</span><span>INDUSTRIAL</span>
+      </div>
+    </div>
+
+    <a class="hero__scroll" href="#threshold" aria-label="아래로 스크롤">
+      <span>SCROLL</span>
+      <i></i>
+    </a>
+  </section>
+
+  <!-- ═══ 02 THRESHOLD ═════════════════════════════════════════════ -->
+  <section class="threshold" id="threshold" data-scene="threshold">
+    <div class="threshold__stage">
+      <div class="threshold__layer" data-layer="out">
+        <img src="/assets/ai/hero-poster.webp" alt="" aria-hidden="true" decoding="async" loading="lazy" />
+      </div>
+      <div class="threshold__layer" data-layer="in">
+        <img src="/assets/ai/cabinet-macro.webp"
+             alt="배전반 캐비닛 내부의 제어 배선과 부스바" decoding="async" loading="lazy" />
+      </div>
+      <span class="threshold__vignette"></span>
+
+      <div class="threshold__copy">
+        <p class="threshold__line" data-th="0">전기가 멈추면,<br />배가 멈춥니다.</p>
+        <p class="threshold__line" data-th="1">그래서 우리는<br /><span class="accent" id="thYears">24</span>년간 멈추지 않았습니다.</p>
+      </div>
+
+      <p class="threshold__note" data-th-note>
+        도면 검토 · 함체 제작 · 결선 · 내압 및 절연 시험 · 출하 검사<br />
+        <span>전 공정을 부산 미음산단 자사 공장에서 수행합니다.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══ 03 BUSINESS / SECTORS ════════════════════════════════════ -->
+  <section class="sectors" id="business" data-scene="business">
+    <div class="sectors__stage">
+      <header class="sectors__head">
+        <p class="eyebrow"><span class="dot"></span>SECTORS</p>
+        <h2 class="sr-only">사업분야</h2>
+      </header>
+      <div class="sectors__track" id="sectorsTrack"></div>
+      <div class="sectors__progress" id="sectorsProgress"></div>
+    </div>
+  </section>
+
+  <!-- ═══ 04 PRODUCTS ══════════════════════════════════════════════ -->
+  <section class="products" id="products" data-scene="products">
+    <div class="products__intro">
+      <p class="eyebrow"><span class="dot"></span>PRODUCTS</p>
+      <h2>한 척의 배가 필요한<br />전기 설비 전부.</h2>
+      <p class="products__lede">
+        주배전반에서 방폭 접속함까지. 개별 품목을 납품하는 것이 아니라
+        선급 요구사항에 맞춘 하나의 계통으로 설계합니다.
+      </p>
+    </div>
+
+    <div class="products__grid">
+      <div class="products__pane">
+        <div class="products__frame" id="productFrame"></div>
+        <p class="products__caption" id="productCaption"></p>
+      </div>
+      <ol class="products__list" id="productList"></ol>
+    </div>
+  </section>
+
+  <!-- ═══ 05 NUMBERS / RECORD ══════════════════════════════════════ -->
+  <section class="record" id="numbers" data-scene="numbers">
+    <div class="record__grid-bg" aria-hidden="true">
+      <svg preserveAspectRatio="none" viewBox="0 0 100 100" id="recordGrid"></svg>
+    </div>
+
+    <div class="record__inner">
+      <header class="record__head">
+        <p class="eyebrow"><span class="dot"></span>RECORD</p>
+        <h2>말보다 오래된 증거.</h2>
+      </header>
+
+      <dl class="record__stats" id="recordStats"></dl>
+
+      <div class="record__foot">
+        <div class="record__certs">
+          <p class="record__certs-label">보유 인증</p>
+          <ul id="certList"></ul>
+        </div>
+
+        <div class="record__accent" id="accentWrap">
+          <canvas id="accent3d" aria-hidden="true"></canvas>
+          <p class="record__accent-cap">ENCLOSURE FRAME</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ 06 TIMELINE ══════════════════════════════════════════════ -->
+  <section class="timeline" id="timeline" data-scene="timeline">
+    <div class="timeline__stage">
+      <header class="timeline__head">
+        <p class="eyebrow"><span class="dot"></span>HISTORY</p>
+        <h2>2002 — 2020</h2>
+        <p class="timeline__hint">스크롤하여 연혁을 따라가세요</p>
+      </header>
+      <div class="timeline__viewport">
+        <!-- The progress line stays put; only the rail translates. -->
+        <span class="timeline__line"><i id="timelineFill"></i></span>
+        <div class="timeline__rail" id="timelineRail"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PARTNERS marquee ═════════════════════════════════════════ -->
+  <section class="partners" aria-label="주요 고객사 및 파트너">
+    <div class="partners__row" id="partnersRow"></div>
+  </section>
+
+</main>
+
+<!-- ═══ 07 CONTACT / FOOTER ════════════════════════════════════════ -->
+<footer class="contact" id="contact" data-scene="contact">
+  <div class="contact__inner">
+    <p class="eyebrow"><span class="dot"></span>CONTACT</p>
+    <h2 class="contact__title">
+      도면을 보내주시면<br />검토해 드립니다.
+    </h2>
+
+    <div class="contact__cols">
+      <dl>
+        <dt>ADDRESS</dt>
+        <dd>부산광역시 강서구<br />미음산단로 105번길 34 (구랑동)</dd>
+      </dl>
+      <dl>
+        <dt>TEL</dt>
+        <dd><a href="tel:+82519749500">051.974.9500</a></dd>
+      </dl>
+      <dl>
+        <dt>FAX</dt>
+        <dd>051.974.9595</dd>
+      </dl>
+      <dl>
+        <dt>LINKS</dt>
+        <dd>
+          <a href="http://www.jke.kr/sub06/sub06_04.php">연락처 상세</a><br />
+          <a href="http://www.jke.kr/sub01/sub01_06.php">찾아오시는 길</a><br />
+          <a href="http://www.jke.kr/eng/index.php">English</a>
+        </dd>
+      </dl>
+    </div>
+  </div>
+
+  <div class="contact__wordmark" aria-hidden="true"><span id="footMark">JKE</span></div>
+
+  <div class="contact__base">
+    <p>© <span id="year"></span> JKE Co., Ltd. All rights reserved.</p>
+    <p class="contact__disclaimer">
+      이 페이지의 사진과 영상은 레이아웃 확인을 위한 AI 생성 시안이며, 실제 제품 사진으로 교체 예정입니다.
+    </p>
+  </div>
+</footer>
+
+<div class="grain" aria-hidden="true"></div>
+
+<script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
